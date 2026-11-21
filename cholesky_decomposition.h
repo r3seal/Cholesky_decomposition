@@ -1,8 +1,8 @@
 #ifndef CHOLESKY_DECOMPOSITION_ALGORITHM_IMPLEMENTATION
 #define CHOLESKY_DECOMPOSITION_ALGORITHM_IMPLEMENTATION
 
-int cholesky_decomposition(int dimension_A, 
-    float matrix_A[dimension_A][dimension_A], 
-    float matrix_L[dimension_A][dimension_A]);
+int cholesky_decomposition(int dimension, 
+    double matrix_A[dimension][dimension], 
+    double matrix_Lt[dimension][dimension]);
 
 #endif
